@@ -1,8 +1,42 @@
 body{
   margin: 0;
+  background: #3030C1;
 }
 .wrapper{
   width: 82%;
   border: 1px solid red;
   margin:auto;
+}
+.logo{
+  margin-top: 60px;
+  margin-bottom: 134px;
+}
+.plans-one{
+  background: left 98.7% top 43.2%  no-repeat url('images/girl.svg')
+}
+.plans-one__title{
+  font: 800 45px/55px gilroy, arial, helvetica, sans-serif;
+  color: #fff;
+  margin-bottom: 32px;
+  width: 52%;
+}
+.plans-one__first-subtitle{
+  font: 800 30px/36.75px gilroy, arial, helvetica, sans-serif;
+  color: #FFCC33;
+  margin-bottom: 10px;
+  width: 30%;
+}
+.plans-one__second-subtitle{
+  font: 20px/23px gilroy-300, arial, helvetica, sans-serif;
+  color: #fff;
+  margin-bottom: 32px;
+  width: 38%;
+}
+.plans-one__button{
+  display:inline-block;
+  background: #FFCC33;
+  text-decoration: none;
+  padding: 15px 23px;
+  font: 900 20px/24.38px Montserrat, arial, helvetica, sans-serif;
+  color: #3030C1;
 }
