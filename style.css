@@ -1,25 +1,27 @@
 body{
   margin: 0;
-  background: #3030C1;
+  background: url('images/background1.svg') top 0% left 0% / auto 35% repeat-x,
+              url('images/background2.svg') top 95% left 0% / auto 35% repeat-x,
+              url('images/background3.svg') top 100% left 0% / auto 35% repeat-x;
 }
 .wrapper{
   width: 82%;
-  border: 1px solid red;
   margin:auto;
 }
 .logo{
   margin-top: 60px;
-  margin-bottom: 134px;
 }
 .plans-one{
-  background: left 98.7% top 43.2%  no-repeat url('images/girl.svg')
+  background: left 90% top 0%  no-repeat url('images/girl.svg');
+  margin-top: 100px;
 }
 .plans-one__title{
   font: 800 45px/55px gilroy, arial, helvetica, sans-serif;
   color: #fff;
+  padding-top: 34px;
   margin-bottom: 32px;
   width: 52%;
-}
+  }
 .plans-one__first-subtitle{
   font: 800 30px/36.75px gilroy, arial, helvetica, sans-serif;
   color: #FFCC33;
@@ -39,4 +41,74 @@ body{
   padding: 15px 23px;
   font: 900 20px/24.38px Montserrat, arial, helvetica, sans-serif;
   color: #3030C1;
+  margin-bottom: 296px;
+}
+.plans-two{
+  background: center left no-repeat url('images/plan1.svg'),
+              center no-repeat url('images/plan2.svg'),
+              center right no-repeat url('images/plan3.svg');
+}
+.plans-two__title{
+  font: 800 40px/49px gilroy, arial, helvetica, sans-serif;
+  text-align: center;
+  margin-bottom: 586px;
+  color: #3A3A3A;
+}
+.plans-two__first-subtitle{
+  font: 800 40px/49px gilroy, arial, helvetica, sans-serif;
+  color: #3A3A3A;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.plans-two__second-subtitle{
+  font: 30px/35px gilroy-300, arial, helvetica, sans-serif;
+  color: #3A3A3A;
+  margin: 0 83px 128px 100px;;
+  text-align: center;
+}
+.form__title{
+  font: 800 40px/49px gilroy, arial, helvetica, sans-serif;
+  text-align: center;
+  color: #3A3A3A;
+  margin-bottom: 50px;
+}
+.form__username{
+  display: block;
+  width: 352px;
+  height: 80px;
+  padding-left: 28px;
+  font: 20px/23px gilroy-300, arial, helvetica, sans-serif;
+  color: #878787;
+  margin-left: 400px;
+  margin-bottom: 30px;
+  border: none;
+}
+.form__useremail{
+  display: block;
+  width: 352px;
+  height: 80px;
+  margin-left: 400px;
+  margin-bottom: 74px;
+  padding-left: 28px;
+  font: 20px/23px gilroy-300, arial, helvetica, sans-serif;
+  color: #878787;
+  border: none;
+}
+.form__button{
+  display: block;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 400px;
+  width: 380px;
+  padding: 28px 0;
+  font: 20px/24px Montserrat, arial, helvetica, sans-serif;
+  background: #FFDA45;
+  margin-bottom: 124px;
+  opacity: .5s;
+}
+.footer{
+  font: 15px/18px Roboto, arial, helvetica, sans-serif;
+  margin-bottom: 51px;
+  color: #FFF;
 }
