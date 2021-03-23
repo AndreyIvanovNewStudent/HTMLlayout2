@@ -1,8 +1,8 @@
 body{
   margin: 0;
-  background: url('images/background1.svg') top 0% left 0% / auto 35% repeat-x,
-              url('images/background2.svg') top 95% left 0% / auto 35% repeat-x,
-              url('images/background3.svg') top 100% left 0% / auto 35% repeat-x;
+  background: url('images/background1.svg') top 0% left 0% / auto 35.3% repeat-x,
+              url('images/background2.svg') top 93.5% left 0% / auto 25% repeat-x,
+              url('images/background3.svg') top 130% left 0% / auto 35% repeat-x;
 }
 .wrapper{
   width: 82%;
@@ -12,27 +12,27 @@ body{
   margin-top: 60px;
 }
 .plans-one{
-  background: left 90% top 0%  no-repeat url('images/girl.svg');
-  margin-top: 100px;
+  background: left 100% top 0%  no-repeat url('images/girl.svg');
+  margin-top: 75px;
 }
 .plans-one__title{
   font: 800 45px/55px gilroy, arial, helvetica, sans-serif;
   color: #fff;
-  padding-top: 34px;
+  padding-top: 53px;
   margin-bottom: 32px;
   width: 52%;
   }
 .plans-one__first-subtitle{
   font: 800 30px/36.75px gilroy, arial, helvetica, sans-serif;
   color: #FFCC33;
-  margin-bottom: 10px;
+  margin-bottom: 13px;
   width: 30%;
 }
 .plans-one__second-subtitle{
   font: 20px/23px gilroy-300, arial, helvetica, sans-serif;
   color: #fff;
   margin-bottom: 32px;
-  width: 38%;
+  width: 42%;
 }
 .plans-one__button{
   display:inline-block;
@@ -44,14 +44,14 @@ body{
   margin-bottom: 296px;
 }
 .plans-two{
-  background: center left no-repeat url('images/plan1.svg'),
-              center no-repeat url('images/plan2.svg'),
-              center right no-repeat url('images/plan3.svg');
+  background: url('images/plan1.svg') top 22% left -3% no-repeat,
+              url('images/plan2.svg') top 22% left 51% no-repeat,
+              url('images/plan3.svg') top 22% left 105% no-repeat;
 }
 .plans-two__title{
   font: 800 40px/49px gilroy, arial, helvetica, sans-serif;
   text-align: center;
-  margin-bottom: 586px;
+  margin-bottom: 485px;
   color: #3A3A3A;
 }
 .plans-two__first-subtitle{
@@ -104,7 +104,7 @@ body{
   padding: 28px 0;
   font: 20px/24px Montserrat, arial, helvetica, sans-serif;
   background: #FFDA45;
-  margin-bottom: 124px;
+  margin-bottom: 122px;
   opacity: .5s;
 }
 .footer{
