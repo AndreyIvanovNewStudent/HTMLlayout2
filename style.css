@@ -1,0 +1,314 @@
+body{
+  margin: 0;
+  background: url('images/background1.svg') top 0% left 0% / auto 35.3% repeat-x,
+              url('images/background2.svg') top 93.5% left 0% / auto 25% repeat-x,
+              url('images/background3.svg') top 130% left 0% / auto 35% repeat-x;
+}
+.wrapper{
+  width: 82%;
+  margin:auto;
+}
+.logo{
+  margin-top: 60px;
+}
+.plans-one{
+  background: left 100% top 0%  no-repeat url('images/girl.svg');
+  margin-top: 75px;
+}
+.plans-one__title{
+  font: 800 45px/55px gilroy, arial, helvetica, sans-serif;
+  color: #fff;
+  padding-top: 53px;
+  margin-bottom: 32px;
+  width: 52%;
+  }
+.plans-one__first-subtitle{
+  font: 800 30px/36.75px gilroy, arial, helvetica, sans-serif;
+  color: #FFCC33;
+  margin-bottom: 13px;
+  width: 30%;
+}
+.plans-one__second-subtitle{
+  font: 20px/23px gilroy-300, arial, helvetica, sans-serif;
+  color: #fff;
+  margin-bottom: 32px;
+  width: 42%;
+}
+.plans-one__button{
+  display:inline-block;
+  background: #FFCC33;
+  text-decoration: none;
+  padding: 15px 23px;
+  font: 900 20px/24.38px Montserrat, arial, helvetica, sans-serif;
+  color: #3030C1;
+  margin-bottom: 296px;
+  transition: opacity 0.5s;
+}
+.plans-one__button:hover{
+  opacity: .5;
+}
+.plans-two{
+  background: url('images/plan1.svg') top 22% left -3% no-repeat,
+              url('images/plan2.svg') top 22% left 51% no-repeat,
+              url('images/plan3.svg') top 22% left 105% no-repeat;
+}
+.plans-two__title{
+  font: 800 40px/49px gilroy, arial, helvetica, sans-serif;
+  text-align: center;
+  margin-bottom: 485px;
+  color: #3A3A3A;
+}
+.plans-two__first-subtitle{
+  font: 800 40px/49px gilroy, arial, helvetica, sans-serif;
+  color: #3A3A3A;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.plans-two__second-subtitle{
+  font: 30px/35px gilroy-300, arial, helvetica, sans-serif;
+  color: #3A3A3A;
+  margin: 0 83px 128px 100px;;
+  text-align: center;
+}
+.form__title{
+  font: 800 40px/49px gilroy, arial, helvetica, sans-serif;
+  text-align: center;
+  color: #3A3A3A;
+  margin-bottom: 50px;
+}
+.form__username{
+  display: block;
+  width: 352px;
+  height: 80px;
+  padding-left: 28px;
+  font: 20px/23px gilroy-300, arial, helvetica, sans-serif;
+  color: #878787;
+  margin: auto;
+  margin-bottom: 30px;
+  border: none;
+}
+.form__useremail{
+  display: block;
+  width: 352px;
+  height: 80px;
+  margin: auto;
+  margin-bottom: 74px;
+  padding-left: 28px;
+  font: 20px/23px gilroy-300, arial, helvetica, sans-serif;
+  color: #878787;
+  border: none;
+}
+.form__button{
+  display: block;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  width: 380px;
+  padding: 28px 0;
+  font: 20px/24px Montserrat, arial, helvetica, sans-serif;
+  background: #FFDA45;
+  margin-bottom: 122px;
+  transition: opacity 0.5s;
+}
+.form__button:hover{
+  opacity: .5;
+}
+.footer{
+  font: 15px/18px Roboto, arial, helvetica, sans-serif;
+  margin-bottom: 51px;
+  color: #FFF;
+}
+@media(max-width: 1405px){
+.plans-two{
+  background: url('images/plan1mini.svg') top 22% left 5% no-repeat,
+              url('images/plan2mini.svg') top 22% left 51% no-repeat,
+              url('images/plan3mini.svg') top 22% left 95% no-repeat;
+}
+}
+@media(max-width: 770px){
+.plans-one{
+  background: left 35% top 95%  no-repeat url('images/girl.svg');
+  margin-top: 35px;
+}
+.plans-one__title{
+  padding: 0;
+  font: 800 45px/55px gilroy, arial, helvetica, sans-serif;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.plans-one__first-subtitle{
+  font: 800 30px/36px gilroy, arial, helvetica, sans-serif;
+  width: 100%;
+}
+.plans-one__second-subtitle{
+  font: 20px/23px gilroy-300, arial, helvetica, sans-serif;
+  width: 100%;
+  margin-bottom: 0;
+  padding-bottom: 493px;
+}
+.plans-one__button{
+  display: none;
+}
+.plans-two{
+  background: url('images/plan1mini.svg') top 5% left 50% no-repeat,
+              url('images/plan2mini.svg') top 45% left 50% no-repeat,
+              url('images/plan3mini.svg') top 85% left 50% no-repeat;
+}
+.plans-two__title{
+  font: 800 40px/49px gilroy, arial, helvetica, sans-serif;
+  color: #3A3A3A;
+  margin-bottom: 880px;
+}
+.plans-two__first-subtitle{
+  font: 800 20px/24px gilroy, arial, helvetica, sans-serif;
+}
+.plans-two__second-subtitle{
+  font: 18px/20px gilroy-300, arial, helvetica, sans-serif;
+  margin: 0 0 50px 0;
+}
+.form__title{
+  font: 800 20px/24px gilroy, arial, helvetica, sans-serif;
+}
+.form__username{
+  width: 260px;
+  height: 45px;
+  font: 10px/11px gilroy-300, arial, helvetica, sans-serif;
+  padding-left: 17px;
+}
+.form__useremail{
+  width: 260px;
+  height: 45px;
+  font: 10px/11px gilroy-300, arial, helvetica, sans-serif;
+  padding-left: 17px;
+}
+.form__button{
+  width: 260px;
+  font: 10px/12px Montserrat, arial, helvetica, sans-serif;
+  padding: 17px 10px;
+}
+}
+@media(max-width: 380px){
+.plans-one{
+  background: left 35% top 70%  no-repeat url('images/girlmini.svg');
+  margin-top: 75px;
+}
+.plans-one__title{
+  padding: 0;
+  font: 800 25px/30px gilroy, arial, helvetica, sans-serif;
+  width: 85%;
+  margin-bottom: 25px;
+}
+.plans-one__first-subtitle{
+  font: 800 20px/24px gilroy, arial, helvetica, sans-serif;
+  width: 90%;
+}
+.plans-one__second-subtitle{
+  font: 15px/17px gilroy-300, arial, helvetica, sans-serif;
+  width: 88%;
+  margin-bottom: 0;
+  padding-bottom: 343px;
+}
+.plans-one__button{
+  display: none;
+}
+.plans-two{
+  background: url('images/plan1mini.svg') top 3% left 42% no-repeat,
+              url('images/plan2mini.svg') top 39% left 42% no-repeat,
+              url('images/plan3mini.svg') top 75% left 42% no-repeat;
+}
+.plans-two__title{
+  font: 800 20px/24px gilroy, arial, helvetica, sans-serif;
+  color: #000;
+  margin-bottom: 880px;
+}
+.plans-two__first-subtitle{
+  font: 800 20px/24px gilroy, arial, helvetica, sans-serif;
+}
+.plans-two__second-subtitle{
+  font: 18px/20px gilroy-300, arial, helvetica, sans-serif;
+  margin: 0 0 50px 0;
+}
+.form__title{
+  font: 800 20px/24px gilroy, arial, helvetica, sans-serif;
+}
+.form__username{
+  width: 260px;
+  height: 45px;
+  font: 10px/11px gilroy-300, arial, helvetica, sans-serif;
+  padding-left: 17px;
+}
+.form__useremail{
+  width: 260px;
+  height: 45px;
+  font: 10px/11px gilroy-300, arial, helvetica, sans-serif;
+  padding-left: 17px;
+}
+.form__button{
+  width: 260px;
+  font: 10px/12px Montserrat, arial, helvetica, sans-serif;
+  padding: 17px 10px;
+}
+}
+@media(max-width: 330px){
+.plans-one{
+  background: left 100% top 70%  no-repeat url('images/girlmini.svg');
+  margin-top: 75px;
+}
+.plans-one__title{
+  padding: 0;
+  font: 800 25px/30px gilroy, arial, helvetica, sans-serif;
+  width: 85%;
+  margin-bottom: 25px;
+}
+.plans-one__first-subtitle{
+  font: 800 20px/24px gilroy, arial, helvetica, sans-serif;
+  width: 90%;
+}
+.plans-one__second-subtitle{
+  font: 15px/17px gilroy-300, arial, helvetica, sans-serif;
+  width: 88%;
+  margin-bottom: 0;
+  padding-bottom: 343px;
+}
+.plans-one__button{
+  display: none;
+}
+.plans-two{
+  background: url('images/plan1mini.svg') top 3% left 42% no-repeat,
+              url('images/plan2mini.svg') top 39% left 42% no-repeat,
+              url('images/plan3mini.svg') top 75% left 42% no-repeat;
+}
+.plans-two__title{
+  font: 800 20px/24px gilroy, arial, helvetica, sans-serif;
+  color: #000;
+  margin-bottom: 880px;
+}
+.plans-two__first-subtitle{
+  font: 800 20px/24px gilroy, arial, helvetica, sans-serif;
+}
+.plans-two__second-subtitle{
+  font: 18px/20px gilroy-300, arial, helvetica, sans-serif;
+  margin: 0 0 50px 0;
+}
+.form__title{
+  font: 800 20px/24px gilroy, arial, helvetica, sans-serif;
+}
+.form__username{
+  width: 260px;
+  height: 45px;
+  font: 10px/11px gilroy-300, arial, helvetica, sans-serif;
+  padding-left: 17px;
+}
+.form__useremail{
+  width: 260px;
+  height: 45px;
+  font: 10px/11px gilroy-300, arial, helvetica, sans-serif;
+  padding-left: 17px;
+}
+.form__button{
+  width: 260px;
+  font: 10px/12px Montserrat, arial, helvetica, sans-serif;
+  padding: 17px 10px;
+}
+}
